@@ -10,7 +10,7 @@ public class Main {
 		e2.nom ="Ayou";
 		e2.taille = 1.74;
 		e2.age = 31;
-		e3.nom = "khalid";
+		e3.nom = "Sara";
 		e3.taille = 1.68;
 		e3.age = 25;
 				
@@ -18,5 +18,10 @@ public class Main {
 		e2.afficher();
 		e3.afficher();
 		
+		Voiture v1 = new Voiture();
+		v1.marque = "Toyota";
+		v1.modele = "Corolla";
+		v1.annee = 2022;
+		v1.afficher();
 	}
 }
